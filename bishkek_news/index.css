@@ -1,0 +1,211 @@
+* {
+  font-family: "Overpass", sans-serif;
+}
+.reklama {
+  margin: auto;
+  text-align: center;
+  font-size: 100px;
+}
+.reklama:hover {
+  color: white;
+  font-size: 110px;
+}
+.sovereign {
+  padding: 20px;
+  color: white;
+  background-color: rgba(161, 21, 207, 0.7);
+  text-align: center;
+  border-radius: 30px;
+  height: 80vh;
+  overflow-y: scroll;
+}
+.col-sm-3 a:link,
+.col-sm-3 a:visited,
+.col-sm-3 a:active {
+  text-decoration: none;
+}
+.news {
+  color: white;
+  background-color: rgba(29, 207, 88, 0.8);
+  border-radius: 30px;
+  padding: 20px;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.concerts {
+  float: center;
+  color: white;
+  background-color: rgba(44, 211, 197, 0.7);
+  text-align: center;
+  border-radius: 30px;
+  padding: 20px;
+  height: 80vh;
+  overflow-y: scroll;
+}
+.imgSov1 {
+  width: 80%;
+}
+img.imgconcerts {
+  width: 80%;
+  height: 80%;
+}
+
+p {
+  text-decoration: none;
+}
+.history {
+  color: darkblue;
+  background-color: rgba(224, 212, 216, 0.7);
+  border-radius: 30px;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  text-align: justify;
+  text-indent: 50px;
+  line-height: 30px;
+}
+footer {
+  text-align: center;
+  color: white;
+  margin: 20px;
+  padding: 5px;
+}
+/* .form label {
+  background-color: white; */
+
+.conteiner h3,
+.conteiner h2 {
+  color: white;
+  vertical-align: bottom;
+  border-radius: 15px;
+  background-color: rgba(53, 8, 68, 0.534);
+  text-align: center;
+}
+.conteiner h3:hover,
+.conteiner h2:hover,
+.col-sm-3 h3 a:hover {
+  color: yellow;
+  font-size: 40px;
+}
+
+.formfornews {
+  text-align: left;
+}
+.imgHistory {
+  width: 150px;
+  height: 200px;
+  margin: 5px;
+  float: right;
+}
+.history > p::first-letter {
+  font-size: 50px;
+}
+.imgHistory2 {
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  float: left;
+}
+.video > h2 {
+  color: white;
+  text-align: center;
+}
+.video {
+  background-color: rgba(29, 207, 88, 0.8);
+  border-radius: 30px;
+}
+/* .form {
+  background-color: rgba(29, 207, 88, 0.8);
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+} */
+.form input[type="text"],
+.form input[type="email"] {
+  display: block;
+  /* height: 20px; */
+  box-sizing: border-box;
+}
+
+.form input[name="gender"],
+.form label[name="gender"] {
+  display: inline;
+  margin: 10px;
+}
+.form label[name="country"] {
+  display: block;
+  width: 20%;
+}
+
+.form button[name="submit"] {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: rgb(141, 198, 231);
+  border-radius: 5px;
+  border: 1px solid rgb(141, 198, 231);
+}
+.form label,
+.form h5 {
+  background-color: rgba(161, 21, 207, 0);
+  color: black;
+}
+nav > ul > li {
+  list-style-type: none;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+
+div > nav {
+  border-radius: 20px;
+  vertical-align: middle;
+  background-color: rgba(161, 21, 207, 0.8);
+  list-style-type: none;
+}
+
+.dropbtn:hover,
+.dropbtn:hover a {
+  background-color: white;
+  color: rgba(161, 21, 207, 0.8);
+}
+.dropdown-content div:hover,
+.dropdown-content div:hover a {
+  background-color: white;
+  color: rgba(161, 21, 207, 0.8);
+}
+.dropdown-content a:link,
+.dropdown-content a:visited,
+.dropdown-content a:active {
+  text-decoration: none;
+}
+.dropbtn a:link,
+.dropbtn a:visited,
+.dropbtn a:active {
+  text-decoration: none;
+  color: white;
+}
+.dropdown-content div {
+  height: 100%;
+  background-color: rgba(161, 21, 207, 0.8);
+  padding: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 150px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item img {
+  width: 30%;
+  height: 25%;
+  margin: 2px;
+}
+.video p {
+  border-radius: 10px;
+}
