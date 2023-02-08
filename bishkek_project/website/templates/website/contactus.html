@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+          <div>
+          <ul class="nav justify-content-center nav-tabs mt-3 bg-primary rounded" role="tablist">
+            <li class="nav-item"><a href="#socialNetworks" class="nav-link text-info active" data-bs-toggle="tab">Соц сети</a></li>
+            <li class="nav-item"><a href="#mail" class="nav-link text-info" data-bs-toggle="tab">Почта</a></li>
+            <li class="nav-item"><a href="#phoneNumber" class="nav-link text-info" data-bs-toggle="tab">Телефон</a></li>
+            <li class="nav-item"><a href="#address" class="nav-link text-info" data-bs-toggle="tab">Адрес</a></li>
+          </ul>
+        </div>
+        <div class="tab-content">
+          <div class="conteiner tab-pane active show" role="tabpanel" id="socialNetworks">
+            <p class="bg-light text-dark m-3 p-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+          <div class="conteiner tab-pane text-dark" role="tabpanel" id="mail"><p class="bg-light m-3 p-3"><span class="h3"><a href="mailto:ask@htmlbook.ru">Задавайте вопросы по электронной почте</a></span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+          <div class="conteiner tab-pane text-info m-3 p-3" role="tabpanel" id="phoneNumber"><p class="bg-light text-dark">+30-2106019311 (landline)<br>
+            +30-6977664062 (mobile phone)<br>
+            +30-2106398905 (fax)</p></div>
+          <div class="conteiner tab-pane fade text-secondary mx-3 d-flex justify-content-center" role="tabpanel" id="address"><p class="bg-light p-3 m-3">Lorem Ipsum Press is licensed by Bionetwork Ltd. Our office is located within the company's building..</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27032.825508317586!2d74.58357214893091!3d42.8746907614842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7dcbdacf87b%3A0xfc7d686ab988f348!2z0J_Qu9C-0YnQsNC00Ywg0JDQu9CwLdCi0L7QviDQkdC40YjQutC10Lo!5e0!3m2!1sru!2skg!4v1671029551353!5m2!1sru!2skg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="p-3"></iframe> 
+            <p class="p-3 bg-light m-3">Address:
+              Keas 69 Str.
+              15234, Chalandri
+              Athens,
+              Greece</p>
+        </div>
+      </div>
+
+      {% endblock %}
