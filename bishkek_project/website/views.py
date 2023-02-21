@@ -3,7 +3,7 @@ from .models import News, About_city
 
 # Create your views here.
 def index(request):
-    news = News.objects.all()
+    news = News.objects.all().order_by('-time_news')
     about_city = About_city.objects.all()
     context = {
         'news': news,
@@ -16,3 +16,4 @@ def contact(request):
 
 def about(request):
     return render(request, 'website/aboutus.html')
+
